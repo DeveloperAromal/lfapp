@@ -5,8 +5,8 @@ import { useRouter } from "next/navigation";
 import React, { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 import Image from "next/image";
-import eyeOpen from "../../../../../../../public/icons/eye_open.png";
-import eyeClosed from "../../../../../../../public/icons/eye_closed.png";
+import eyeOpen from "../../../public/icons/eye_open.png";
+import eyeClosed from "../../../public/icons/icons/eye_closed.png";
 
 export default function LoginForm() {
   const [email, setEmail] = useState("");

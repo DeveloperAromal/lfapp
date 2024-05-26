@@ -6,8 +6,8 @@ import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
 import { toast } from "react-toastify";
 import Link from "next/link";
 import Image from "next/image";
-import eyeOpen from "../../../../../../public/icons/eye_open.png";
-import eyeClosed from "../../../../../../public/icons/eye_closed.png";
+import eyeOpen from "../../../public/icons/eye_open.png";
+import eyeClosed from "../../../public/icons/eye_closed.png";
 
 export default function SignUpForm() {
   const [name, setName] = useState("");
