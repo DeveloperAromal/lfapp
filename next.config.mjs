@@ -1,4 +1,4 @@
-/** @type {import('next').NextConfig} */
+// next.config.js
 import withPWAInit from "@ducanh2912/next-pwa";
 
 const withPWA = withPWAInit({
